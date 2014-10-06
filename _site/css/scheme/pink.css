@@ -1,0 +1,405 @@
+/* CSS crunched with Crunch - http://crunchapp.net/ */
+/*
+Theme Name: Tumbas
+LESS CSS For Color Scheme :)
+*/
+/* ====== VARIABLES ===== */
+/* ====== GENERAL ELEMENTS ======== */
+p a {
+  color: #ca2282;
+}
+p a:hover {
+  color: #121212;
+}
+small {
+  color: #cccccc;
+}
+/* BLOCK */
+.block.newsletter {
+  border-top: 1px solid #454545;
+}
+/* BOX TITLE */
+.box-title:after {
+  background: #000000;
+}
+.box-title h2 {
+  background: #ffffff;
+}
+.box-title h2:before {
+  content: '\022C9';
+}
+.box-title h2:after {
+  content: '\022CA';
+}
+/* PRODUCT */
+.product-label-special {
+  background: none repeat scroll 0 0 #c44569;
+  color: #ffffff;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+/* PRODUCT META */
+.product-block .product-action {
+  background: #ffffff;
+  border-bottom: 1px solid #ededed;
+}
+.product-block .product-action a {
+  color: #cccccc;
+}
+.product-block .product-action a:hover {
+  background: #f4f4f4;
+}
+.product-block .product-action a.addcart {
+  color: #000000;
+}
+.product-block .product-action a.addcart:hover {
+  color: #ca2282;
+}
+.product-block .product-action a.wishlist {
+  -webkit-box-shadow: -1px 0px 0px 0px #ededed;
+  -moz-box-shadow: -1px 0px 0px 0px #ededed;
+  box-shadow: -1px 0px 0px 0px #ededed;
+}
+.product-block .product-action a.wishlist:hover {
+  color: #c44569;
+}
+.product-block .product-action a.compare {
+  -webkit-box-shadow: -1px 0px 0px 0px #ededed;
+  -moz-box-shadow: -1px 0px 0px 0px #ededed;
+  box-shadow: -1px 0px 0px 0px #ededed;
+}
+.product-block .product-price {
+  color: #121212;
+}
+.product-block .product-price .oldprice {
+  color: #cccccc;
+}
+.product-block .product-price .newprice {
+  color: #da774d;
+}
+.product-block .product-name {
+  color: #121212;
+}
+.product-block .product-name:hover {
+  color: #cccccc;
+}
+.product-block .product-rating {
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #121212;
+  color: #ffcc00;
+}
+/* =========== FORM ========= */
+.input-black {
+  border: 1px solid #cccccc;
+}
+.input-black:focus {
+  border: 1px solid #121212;
+}
+/* =========== BUTTON =========== */
+.btn-black {
+  background: #121212;
+  color: #ffffff;
+}
+.btn-black:hover {
+  background: #454545;
+  color: #ffffff;
+}
+.btn-black:focus {
+  background: #000000;
+}
+/* ======== OVERWRITE BOOTSTRAP ELEEMENTS ========= */
+/* ========= TOP BLOCK ============ */
+.top-block {
+  background: #454545;
+  border-bottom: 4px solid #cccccc;
+}
+.top-block .dropdown-menu {
+  background: #ffffff;
+}
+.top-block .dropdown span {
+  color: #ffffff;
+}
+.top-block a {
+  color: #ca2282;
+}
+/* ========== HEADER ======= */
+.header .sitelogo-block .logo {
+  background: #ca2282;
+  border-bottom: 4px solid #73134a;
+  -webkit-box-shadow: inset 0px -3px 0px -2px rgba(255, 255, 255, 0.25);
+  -moz-box-shadow: inset 0px -3px 0px -2px rgba(255, 255, 255, 0.25);
+  box-shadow: inset 0px -3px 0px -2px rgba(255, 255, 255, 0.25);
+}
+.header .sitelogo-block .titledesc {
+  color: #cccccc;
+}
+.header .sitelogo-block .titledesc h1 {
+  color: #ca2282;
+}
+.header .topinfo-block form {
+  border: 1px solid #cccccc;
+}
+.header .topinfo-block form .input-search {
+  color: #cccccc;
+}
+.header .topinfo-block form .submit-search {
+  background: #ffffff;
+  color: #cccccc;
+}
+.header .topinfo-block form .submit-search:hover {
+  color: #121212;
+}
+.header .topinfo-block .info {
+  color: #666666;
+}
+.header .topinfo-block .info .icon {
+  border: 2px solid #c44569;
+  color: #c44569;
+}
+/* ========== NAVIGATION ======= */
+.navigation .navbar-default {
+  background: #ffffff;
+  border-top: 1px solid #ededed;
+  border-bottom: 3px solid #454545;
+}
+.navigation .navbar-default .nav > li {
+  border-right: 1px solid #ededed;
+}
+.navigation .navbar-default .nav > li:first-child {
+  border-left: 1px solid #ededed;
+}
+.navigation .navbar-default .navbar-nav > li > a {
+  color: #cccccc;
+}
+.navigation .navbar-default .navbar-nav > li > a:hover {
+  color: #000000;
+}
+.navigation .navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #000000;
+}
+.navigation .navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #000000;
+}
+.navigation .dropdown-menu {
+  border: 1px solid #ededed;
+}
+@media (max-width: 768px) {
+  .navigation .navbar-default .nav > li {
+    border-left: 1px solid #ededed;
+  }
+}
+/* ====== TOP SLIDER ======= */
+.sequence-theme:before,
+.sequence-theme:after {
+  background: #666666;
+  -webkit-box-shadow: 0 15px 10px #666666;
+  -moz-box-shadow: 0 15px 10px #666666;
+  box-shadow: 0 15px 10px #666666;
+}
+.topslider .carousel-indicators li.active {
+  background: transparent;
+}
+.topslider .carousel-indicators li:before {
+  color: #ffffff;
+}
+.topslider .slider-title {
+  color: #ffffff;
+}
+.topslider .slider-desc {
+  color: #ffffff;
+}
+.topslider .slider-button a {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+.topslider .slider-button a:hover {
+  color: #ffffff;
+  background: #121212;
+  border-color: #121212;
+}
+/* ========= PROMO =========== */
+.promo .promo-img {
+  background: #000000;
+}
+.promo .promo-box .promo-block {
+  background: rgba(120, 120, 120, 0.2);
+}
+.promo .promo-box a:hover .promo-block {
+  background: rgba(0, 0, 0, 0.4);
+}
+.promo .promo-info .promo-title {
+  color: #ffffff;
+}
+.promo .promo-info p {
+  color: #c44569;
+}
+/* =========== RECENT BLOG ======= */
+.recent-blog .content h2 a {
+  color: #ffffff;
+}
+.recent-blog .postf .content {
+  background: rgba(0, 0, 0, 0.26);
+}
+.recent-blog .postf .content .post-meta {
+  color: #cccccc;
+}
+.recent-blog .postf .content .post-content {
+  color: #ffffff;
+}
+.recent-blog .postf .content .post-content .read-more {
+  color: #ca2282;
+}
+/* ========= WIDGET TAGS ========== */
+.wdgt-tags li a {
+  background: #ededed;
+  color: #666666;
+}
+.wdgt-tags li a:hover {
+  background: #666666;
+  color: #ededed;
+}
+/* ========== WIDGET ABOUT ============ */
+.wdgt-about {
+  border-top: 3px solid #121212;
+}
+/* ========== WIDGET SIDEBAR ============ */
+.sidebar .wdgt-title {
+  color: #ffffff;
+}
+/* ========== WIDGET BOTTOM ============ */
+.wdgt-bottom {
+  border-bottom: 1px solid #ededed;
+}
+.widget-box {
+  border-top: 1px dotted #cccccc;
+}
+.widget-box .opentime {
+  color: #666666;
+}
+.widget-box .wdgt-ul li a {
+  color: #666666;
+}
+.widget-box .wdgt-ul li:hover a {
+  color: #121212;
+}
+.widget-box .wdgt-ul li:before {
+  color: #121212;
+}
+.widget-box .wdgt-address {
+  color: #666666;
+}
+.widget-box .wdgt-address strong {
+  color: #121212;
+}
+/* ====== WIDGET PRODUCT ====== */
+.wdgt-product li {
+  border-bottom: 1px dotted #ededed;
+}
+.wdgt-product li a {
+  color: #666666;
+}
+.wdgt-product li a:hover {
+  color: #cccccc;
+}
+.wdgt-product li .price {
+  background: #cccccc;
+  color: #666666;
+}
+/* ====== ICONIZE ========= */
+.iconize {
+  border: 1px solid #666666;
+  color: #666666;
+}
+.iconize:hover {
+  border-color: #121212;
+  color: #121212;
+}
+/* ======== FOOTER ============ */
+footer {
+  border-bottom: 6px solid #121212;
+}
+.shop-info {
+  border-bottom: 10px solid #121212;
+  color: #666666;
+}
+.shop-info a {
+  color: #121212;
+  font-weight: bold;
+}
+/* ===== ABOUT PAGES ======== */
+.slide-about-people .people-block:hover .people-desc,
+.slide-about-people .people-block:hover figure {
+  border-color: #121212;
+}
+.slide-about-people .people-desc {
+  border: 1px solid #cccccc;
+}
+.slide-about-people .people-desc:after {
+  border-color: rgba(255, 255, 255, 0);
+  border-bottom-color: #ffffff;
+}
+.slide-about-people .people-desc .people-job {
+  color: #cccccc;
+}
+.slide-about-people .people-block figure {
+  border: 1px solid #cccccc;
+}
+/*
+-------------------------
+
+    BOOTSTRAP THEMING
+
+-------------------------
+*/
+/*
+    NAV
+*/
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  border-top: 2px solid #ca2282;
+}
+.product-breadcrumb li a:hover {
+  color: #ca2282;
+}
+/*
+    SKILL BAR
+*/
+.skill-bar ul li h5 {
+  color: #73134a;
+}
+.skill-bar ul li .bar {
+  background: #ca2282;
+}
+/*
+    PAGINATION
+*/
+.pagination .pag-prev a,
+.pagination .pag-next a {
+  background: #ca2282;
+}
+/*
+    SOCIAL ICON
+*/
+.social-icon li a {
+  background: #ca2282;
+}
+.styled div span {
+  background: #ca2282;
+}
+/* ===== BLOG ==== */
+.post .post-meta span a,
+.blog-comments .blog-comment-content .comment-meta .comment-extra a {
+  color: #ca2282;
+}
+.post .post-meta .post-icon,
+.mejs-horizontal-volume-current {
+  background: #ca2282;
+}
+.post .read-more {
+  border: 1px solid #ca2282;
+}

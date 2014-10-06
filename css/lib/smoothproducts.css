@@ -1,0 +1,75 @@
+html, body {
+    height:100%: width:100%;
+}
+
+.sp-wrap {
+    display:none;
+    line-height:0;
+    font-size:0;
+    background:#eee;
+    position:relative;
+    margin:0 25px 15px 0;
+    float:left;
+}
+.sp-large {
+    position:relative;
+    overflow:hidden;
+}
+.sp-large a img {
+    max-width:100%;
+    height:auto;
+    cursor: -webkit-zoom-in;
+    cursor: -moz-zoom-in;
+}
+.sp-large a {
+    display:inline-block;
+}
+.sp-thumbs {
+    width:100%;
+    text-align:left;
+    border-top:2px solid #F0353A;
+}
+.sp-thumbs img {
+    width:50px;
+    height:50px;
+}
+.sp-thumbs a:link, .sp-thumbs a:visited {
+    opacity:.4;
+    display:inline-block;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+.sp-thumbs a:hover{
+    opacity:1;
+}
+.sp-thumbs a:active, .sp-current {
+    opacity:1!important;
+    position: relative;
+}
+.sp-current:after {
+    content:'';
+    border:6px solid transparent;
+    border-top:6px solid #F0353A;
+    position: absolute;
+    left:50%;
+    top:0;
+    margin-left:-6px;
+}
+.sp-zoom {
+    position:absolute;
+    left:0;
+    top:0;
+    cursor:zoom;
+    cursor: -webkit-zoom-out;
+    cursor: -moz-zoom-out;
+    display:none;
+}
+
+@media screen and (max-width: 400px) {
+    .sp-wrap {
+        margin:0 0 15px 0;
+    }
+}

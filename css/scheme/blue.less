@@ -1,0 +1,420 @@
+/*
+Theme Name: Tumbas
+LESS CSS For Color Scheme :)
+*/
+/* ====== VARIABLES ===== */
+@light-blue:#449dc1;
+@dark-blue:darken(@light-blue, 20%);
+@light-green: #7ac144;
+@dark-green:darken(@light-green, 20%);
+@black:#000;
+@light-black:lighten(@black,40%);
+@medium-black:lighten(@black,27%);
+@dark-black:lighten(@black,7%);
+@white:#FFF;
+@light-grey:#F4F4F4;
+@medium-grey:#EDEDED;
+@dark-grey:#CCC;
+@pink : #C44569;
+@orange:#DA774D;
+
+/* ====== GENERAL ELEMENTS ======== */
+p a {
+    color: @light-blue;
+}
+p a:hover {
+    color: @dark-black;
+}
+small {
+    color: @dark-grey;
+}
+/* BLOCK */
+
+.block.newsletter {
+    border-top: 1px solid @medium-black;
+}
+/* BOX TITLE */
+.box-title:after {
+    background: @black;
+}
+.box-title h2 {
+    background: @white;
+}
+
+.box-title h2:before {
+    content:'\022C9';
+}
+.box-title h2:after {
+    content:'\022CA';
+}
+/* PRODUCT */
+.product-label-special {
+    background: none repeat scroll 0 0 @pink;
+    color: @white;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+/* PRODUCT META */
+.product-block .product-action {
+    background: @white;
+    border-bottom: 1px solid @medium-grey;
+}
+.product-block .product-action a {
+    color: @dark-grey;
+}
+.product-block .product-action a:hover {
+    background: @light-grey;
+}
+.product-block .product-action a.addcart {
+    color: @black;
+}
+.product-block .product-action a.addcart:hover {
+    color:@light-blue;
+}
+.product-block .product-action a.wishlist {
+    -webkit-box-shadow: -1px 0px 0px 0px @medium-grey;
+    -moz-box-shadow: -1px 0px 0px 0px @medium-grey;
+    box-shadow: -1px 0px 0px 0px @medium-grey;
+}
+.product-block .product-action a.wishlist:hover {
+    color: @pink;
+}
+.product-block .product-action a.compare {
+    -webkit-box-shadow: -1px 0px 0px 0px @medium-grey;
+    -moz-box-shadow: -1px 0px 0px 0px @medium-grey;
+    box-shadow: -1px 0px 0px 0px @medium-grey;
+}
+.product-block .product-price {
+    color: @dark-black;
+}
+.product-block .product-price .oldprice {
+    color: @dark-grey;
+}
+.product-block .product-price .newprice {
+    color: @orange;
+}
+.product-block .product-name {
+    color: @dark-black;
+}
+.product-block .product-name:hover {
+    color: @dark-grey;
+}
+.product-block .product-rating {
+    border-top: 1px solid @medium-grey;
+    border-bottom: 1px solid @dark-black;
+    color: #ffcc00;
+}
+/* =========== FORM ========= */
+ .input-black {
+    border:1px solid @dark-grey;
+}
+.input-black:focus {
+    border:1px solid @dark-black;
+}
+/* =========== BUTTON =========== */
+ .btn-black {
+    background: @dark-black;
+    color: @white;
+}
+.btn-black:hover {
+    background: @medium-black;
+    color: @white;
+}
+.btn-black:focus {
+    background: @black;
+}
+/* ======== OVERWRITE BOOTSTRAP ELEEMENTS ========= */
+
+/* ========= TOP BLOCK ============ */
+ .top-block {
+    background: @medium-black;
+    border-bottom: 4px solid @dark-grey;
+}
+.top-block .dropdown-menu {
+    background: @white;
+}
+.top-block .dropdown span {
+    color: @white;
+}
+.top-block a {
+    color: @light-blue;
+}
+/* ========== HEADER ======= */
+.header .sitelogo-block .logo {
+    background: @light-blue;
+    border-bottom: 4px solid @dark-blue;
+    -webkit-box-shadow: inset 0px -3px 0px -2px rgba(255, 255, 255, 0.25);
+    -moz-box-shadow: inset 0px -3px 0px -2px rgba(255, 255, 255, 0.25);
+    box-shadow: inset 0px -3px 0px -2px rgba(255, 255, 255, 0.25);
+}
+.header .sitelogo-block .titledesc {
+    color: @dark-grey;
+}
+.header .sitelogo-block .titledesc h1 {
+    color: @light-blue;
+}
+.header .topinfo-block form {
+    border:1px solid @dark-grey;
+}
+.header .topinfo-block form .input-search {
+    color: @dark-grey;
+}
+.header .topinfo-block form .submit-search {
+    background: @white;
+    color: @dark-grey;
+}
+.header .topinfo-block form .submit-search:hover {
+    color: @dark-black;
+}
+.header .topinfo-block .info {
+    color: @light-black;
+}
+.header .topinfo-block .info .icon {
+    border: 2px solid @pink;
+    color: @pink;
+}
+/* ========== NAVIGATION ======= */
+
+.navigation .navbar-default {
+    background: @white;
+    border-top: 1px solid @medium-grey;
+    border-bottom: 3px solid @medium-black;
+}
+.navigation .navbar-default .nav>li {
+    border-right: 1px solid @medium-grey;
+}
+.navigation .navbar-default .nav>li:first-child {
+    border-left: 1px solid @medium-grey;
+}
+.navigation .navbar-default .navbar-nav>li>a {
+    color: @dark-grey;
+}
+.navigation .navbar-default .navbar-nav>li>a:hover {
+    color: @black;
+}
+.navigation .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: @black;
+}
+.navigation .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+    color: @black;
+}
+.navigation .dropdown-menu {
+    border: 1px solid @medium-grey;
+}
+@media (max-width: 768px) {
+    .navigation .navbar-default .nav>li {
+        border-left: 1px solid @medium-grey;
+    }
+}
+/* ====== TOP SLIDER ======= */
+
+.sequence-theme:before, .sequence-theme:after {
+    background: @light-black;
+    -webkit-box-shadow: 0 15px 10px @light-black;
+    -moz-box-shadow: 0 15px 10px @light-black;
+    box-shadow: 0 15px 10px @light-black;
+}
+.topslider .carousel-indicators li.active {
+    background: transparent;
+}
+
+.topslider .carousel-indicators li:before {
+    color: @white;
+}
+.topslider .slider-title {
+    color: @white;
+}
+.topslider .slider-desc {
+    color: @white;
+}
+.topslider .slider-button a {
+    border:1px solid @white;
+    color: @white;
+}
+.topslider .slider-button a:hover {
+    color: @white;
+    background: @dark-black;
+    border-color:@dark-black;
+}
+/* ========= PROMO =========== */
+
+.promo .promo-img {
+    background: @black;
+}
+
+.promo .promo-box .promo-block {
+    background: rgba(120, 120, 120, .2);
+}
+.promo .promo-box a:hover .promo-block {
+    background: rgba(0, 0, 0, .4);
+}
+.promo .promo-info .promo-title {
+    color: @white;
+}
+.promo .promo-info p {
+    color: @pink;
+}
+/* =========== RECENT BLOG ======= */
+.recent-blog .content h2 a {
+    color: @white;
+}
+.recent-blog .postf .content {
+    background: rgba(0, 0, 0, 0.26);
+}
+.recent-blog .postf .content .post-meta {
+    color: @dark-grey;
+}
+.recent-blog .postf .content .post-content {
+    color: @white;
+}
+.recent-blog .postf .content .post-content .read-more {
+    color: @light-blue;
+}
+/* ========= WIDGET TAGS ========== */
+.wdgt-tags li a {
+    background: @medium-grey;
+    color: @light-black;
+}
+.wdgt-tags li a:hover {
+    background: @light-black;
+    color: @medium-grey;
+}
+/* ========== WIDGET ABOUT ============ */
+ .wdgt-about {
+    border-top: 3px solid @dark-black;
+}
+/* ========== WIDGET SIDEBAR ============ */
+
+.sidebar .wdgt-title {
+    color: @white;
+}
+/* ========== WIDGET BOTTOM ============ */
+.wdgt-bottom {
+    border-bottom: 1px solid @medium-grey;
+}
+.widget-box {
+    border-top: 1px dotted @dark-grey;
+}
+.widget-box .opentime {
+    color: @light-black;
+}
+.widget-box .wdgt-ul li a {
+    color: @light-black;
+}
+.widget-box .wdgt-ul li:hover a {
+    color: @dark-black;
+}
+.widget-box .wdgt-ul li:before {
+    color: @dark-black;
+}
+.widget-box .wdgt-address {
+    color: @light-black;
+}
+.widget-box .wdgt-address strong {
+    color: @dark-black;
+}
+/* ====== WIDGET PRODUCT ====== */
+ .wdgt-product li {
+    border-bottom: 1px dotted @medium-grey;
+}
+.wdgt-product li a {
+    color: @light-black;
+}
+.wdgt-product li a:hover {
+    color:@dark-grey;
+}
+.wdgt-product li .price {
+    background:@dark-grey;
+    color:@light-black;
+}
+/* ====== ICONIZE ========= */
+ .iconize {
+    border:1px solid @light-black;
+    color: @light-black;
+}
+.iconize:hover {
+    border-color:@dark-black;
+    color: @dark-black;
+}
+/* ======== FOOTER ============ */
+ footer {
+    border-bottom:6px solid @dark-black;
+}
+.shop-info {
+    border-bottom: 10px solid @dark-black;
+    color: @light-black;
+}
+.shop-info a {
+    color: @dark-black;
+    font-weight: bold;
+}
+/* ===== ABOUT PAGES ======== */
+.slide-about-people .people-block:hover .people-desc, .slide-about-people .people-block:hover figure {
+    border-color: @dark-black;
+}
+.slide-about-people .people-desc {
+    border:1px solid @dark-grey;
+}
+.slide-about-people .people-desc:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-bottom-color: @white;
+}
+.slide-about-people .people-desc .people-job {
+    color: @dark-grey;
+}
+.slide-about-people .people-block figure {
+    border:1px solid @dark-grey;
+}
+
+/*
+-------------------------
+
+    BOOTSTRAP THEMING
+
+-------------------------
+*/
+
+/*
+    NAV
+*/
+ .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    border-top: 2px solid @light-blue;
+}
+.product-breadcrumb li a:hover {
+    color:@light-blue;    
+}
+/*
+    SKILL BAR
+*/
+.skill-bar ul li h5 {
+    color: @dark-blue;
+}
+.skill-bar ul li .bar {
+    background: @light-blue;
+}
+/*
+    PAGINATION
+*/
+.pagination .pag-prev a, .pagination .pag-next a {
+    background: @light-blue;
+}
+/*
+    SOCIAL ICON
+*/
+.social-icon li a {
+    background: @light-blue
+}
+.styled div span{
+    background: @light-blue;
+}
+/* ===== BLOG ==== */
+.post .post-meta span a,.blog-comments .blog-comment-content .comment-meta .comment-extra a {
+    color: @light-blue;
+}
+.post .post-meta .post-icon,.mejs-horizontal-volume-current{
+    background: @light-blue;
+}
+.post .read-more{
+    border:1px solid @light-blue;
+}
